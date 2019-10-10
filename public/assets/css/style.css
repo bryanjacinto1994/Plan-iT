@@ -1,0 +1,64 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+li{
+    padding: 5px;
+    margin: 5px;
+    background: whitesmoke;
+}
+  
+.label{
+    font-weight: bold;
+}
+  
+.create-form{
+    padding: 20px;
+    margin: 20px;
+    
+}
+  
+.form-group{
+    margin-bottom: 10px;
+}
+
+#change{
+    float: right;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: gray;
+    border: none;
+    border-radius: 15px;
+    
+}
+  
+.button:hover {background-color: lightgrey}
+  
+.button:active {
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
