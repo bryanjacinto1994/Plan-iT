@@ -7,3 +7,12 @@ var connection = mysql.createConnection({
     password: 'password',
     database: 'planner_db'
 });
+
+connection.connect(function(err){
+    if(err){
+        console.error('error connection: ' + err.stack);
+        return
+    }
+    console.log('Connected as id ' + connection.threadId);
+});
+
