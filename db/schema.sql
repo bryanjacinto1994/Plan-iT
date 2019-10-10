@@ -9,4 +9,5 @@ CREATE TABLE planners(
     id int NOT NULL AUTO_INCREMENT,
     plan_name VARCHAR(300) NOT NULL, 
     completed BOOLEAN DEFAULT false,
-)
+    PRIMARY KEY (id)
+);
