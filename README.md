@@ -2,7 +2,7 @@
 
 * Do you ever lose track of what you are supposed to do for the day? <br> <br>
 * Are you stressed out because you have too much tasks to complete and you feel unorganized? <br> <br>
-Not To Worry! <br><br><br><hr>
+Not To Worry! <br><br><hr>
 
 ## Plan-iT : <br>
 ![Site](https://i.pinimg.com/600x315/71/11/c5/7111c56fafd4c12d2a438cdb49d5e867.jpg)
