@@ -10,9 +10,9 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(express.json());
 
-var expressHandleBars = require('express-handlebars');
+var exphbs = require('express-handlebars');
 
-app.engine('handlebars', expressHandleBars({ defaultLayout: 'main' }));
+app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
 var routes = require('./controllers/planners_controller.js');
