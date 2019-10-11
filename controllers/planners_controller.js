@@ -54,4 +54,5 @@ router.delete('/api/planners/:id', function(req, res){
     });
 });
 
+module.exports = router;
 
