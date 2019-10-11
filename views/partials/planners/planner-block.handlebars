@@ -1,0 +1,12 @@
+<li>
+
+    <button class='delete-planner button' style='border-radius: 20px; background-color: rgb(216, 62, 62); color: whitesmoke;' data-id='{{this.id}}'>&nbsp-&nbsp</button>
+
+    {{plan_name}}
+
+    <button class='change-planner button' id='change' data-id='{{id}}' data-newplanner='{{finished}}'>
+        {{#if finished}}Check{{else}}Not Yet Complete{{/if}}
+    </button>
+
+</li>
+<br>
