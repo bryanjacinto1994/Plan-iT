@@ -14,3 +14,14 @@ router.get('/', function(req, res){
     });
 });
 
+router.post('/api/planners', function(req, res){
+    planner.insertOne([
+        'plan_name', 'completed'
+    ], [
+        req.body.plan_name, req.body.completed
+    ], function(result){
+        res.json({ id: result.insertId });
+    });
+});
+
+
