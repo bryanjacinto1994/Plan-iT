@@ -15,7 +15,7 @@ var expressHandleBars = require('express-handlebars');
 app.engine('handlebars', expressHandleBars({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
-var routes = require('.controllers/planners_controller.js');
+var routes = require('./controllers/planners_controller.js');
 
 app.use(routes);
 
