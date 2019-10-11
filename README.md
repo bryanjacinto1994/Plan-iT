@@ -58,7 +58,7 @@ Although, if you find yourself wanting to go back to that task because maybe... 
 * Express-handlebars
 * MySQL
 
-### ====== Installation guide for the NPM packages are located below =======
+### ====== Installation guide for the NPM packages are located below ======
 
 
 <hr>
